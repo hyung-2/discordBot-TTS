@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-tts",
+  "version": "0.0.1",
+  "description": "제크 TTS 봇 만들기",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moong",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "ffmpeg-static": "^5.2.0",
+    "google-tts-api": "^2.0.2",
+    "libsodium-wrappers": "^0.7.13",
+    "nodemon": "^3.1.0"
+  }
+}
